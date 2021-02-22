@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0645AC525E3B30300B455B9 /* MyOwnTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0645AC425E3B30300B455B9 /* MyOwnTableView.swift */; };
 		D0F3B79B25DE4C3B0056ED10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3B79A25DE4C3B0056ED10 /* AppDelegate.swift */; };
 		D0F3B79D25DE4C3B0056ED10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3B79C25DE4C3B0056ED10 /* SceneDelegate.swift */; };
 		D0F3B79F25DE4C3B0056ED10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3B79E25DE4C3B0056ED10 /* ViewController.swift */; };
@@ -15,6 +16,14 @@
 		D0F3B7A725DE4C3E0056ED10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F3B7A525DE4C3E0056ED10 /* LaunchScreen.storyboard */; };
 		D0F3B7B225DE4C3E0056ED10 /* autoHeightTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3B7B125DE4C3E0056ED10 /* autoHeightTableViewTests.swift */; };
 		D0F3B7BD25DE4C3E0056ED10 /* autoHeightTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3B7BC25DE4C3E0056ED10 /* autoHeightTableViewUITests.swift */; };
+		D0F3B7D725DE4D320056ED10 /* review.json in Resources */ = {isa = PBXBuildFile; fileRef = D0F3B7D625DE4D320056ED10 /* review.json */; };
+		D0F3B7DE25DE4D9F0056ED10 /* ReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F3B7DC25DE4D9F0056ED10 /* ReviewTableViewCell.xib */; };
+		D0F3B7DF25DE4D9F0056ED10 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3B7DD25DE4D9F0056ED10 /* ReviewTableViewCell.swift */; };
+		D0F3B7E525DE4DC00056ED10 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3B7E325DE4DC00056ED10 /* CellTableViewCell.swift */; };
+		D0F3B7E625DE4DC00056ED10 /* CellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F3B7E425DE4DC00056ED10 /* CellTableViewCell.xib */; };
+		D0F3B7EC25DE4DD40056ED10 /* AwesomeReviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0F3B7EA25DE4DD30056ED10 /* AwesomeReviewView.xib */; };
+		D0F3B7ED25DE4DD40056ED10 /* AwesomeReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3B7EB25DE4DD30056ED10 /* AwesomeReviewView.swift */; };
+		D0F3B81825DE4EA20056ED10 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3B81725DE4EA20056ED10 /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0645AC425E3B30300B455B9 /* MyOwnTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOwnTableView.swift; sourceTree = "<group>"; };
 		D0F3B79725DE4C3B0056ED10 /* autoHeightTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoHeightTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F3B79A25DE4C3B0056ED10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F3B79C25DE4C3B0056ED10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,14 @@
 		D0F3B7B825DE4C3E0056ED10 /* autoHeightTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoHeightTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F3B7BC25DE4C3E0056ED10 /* autoHeightTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoHeightTableViewUITests.swift; sourceTree = "<group>"; };
 		D0F3B7BE25DE4C3E0056ED10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F3B7D625DE4D320056ED10 /* review.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = review.json; sourceTree = "<group>"; };
+		D0F3B7DC25DE4D9F0056ED10 /* ReviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewTableViewCell.xib; sourceTree = "<group>"; };
+		D0F3B7DD25DE4D9F0056ED10 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		D0F3B7E325DE4DC00056ED10 /* CellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		D0F3B7E425DE4DC00056ED10 /* CellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellTableViewCell.xib; sourceTree = "<group>"; };
+		D0F3B7EA25DE4DD30056ED10 /* AwesomeReviewView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AwesomeReviewView.xib; sourceTree = "<group>"; };
+		D0F3B7EB25DE4DD30056ED10 /* AwesomeReviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeReviewView.swift; sourceTree = "<group>"; };
+		D0F3B81725DE4EA20056ED10 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +117,9 @@
 		D0F3B79925DE4C3B0056ED10 /* autoHeightTableView */ = {
 			isa = PBXGroup;
 			children = (
+				D0F3B81C25DE527B0056ED10 /* Classes */,
+				D0F3B7DB25DE4D520056ED10 /* xib */,
+				D0F3B7CD25DE4CF40056ED10 /* jsonData */,
 				D0F3B79A25DE4C3B0056ED10 /* AppDelegate.swift */,
 				D0F3B79C25DE4C3B0056ED10 /* SceneDelegate.swift */,
 				D0F3B79E25DE4C3B0056ED10 /* ViewController.swift */,
@@ -106,6 +127,7 @@
 				D0F3B7A325DE4C3E0056ED10 /* Assets.xcassets */,
 				D0F3B7A525DE4C3E0056ED10 /* LaunchScreen.storyboard */,
 				D0F3B7A825DE4C3E0056ED10 /* Info.plist */,
+				D0F3B81725DE4EA20056ED10 /* model.swift */,
 			);
 			path = autoHeightTableView;
 			sourceTree = "<group>";
@@ -126,6 +148,35 @@
 				D0F3B7BE25DE4C3E0056ED10 /* Info.plist */,
 			);
 			path = autoHeightTableViewUITests;
+			sourceTree = "<group>";
+		};
+		D0F3B7CD25DE4CF40056ED10 /* jsonData */ = {
+			isa = PBXGroup;
+			children = (
+				D0F3B7D625DE4D320056ED10 /* review.json */,
+			);
+			path = jsonData;
+			sourceTree = "<group>";
+		};
+		D0F3B7DB25DE4D520056ED10 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				D0F3B7E325DE4DC00056ED10 /* CellTableViewCell.swift */,
+				D0F3B7E425DE4DC00056ED10 /* CellTableViewCell.xib */,
+				D0F3B7DD25DE4D9F0056ED10 /* ReviewTableViewCell.swift */,
+				D0F3B7DC25DE4D9F0056ED10 /* ReviewTableViewCell.xib */,
+				D0F3B7EB25DE4DD30056ED10 /* AwesomeReviewView.swift */,
+				D0F3B7EA25DE4DD30056ED10 /* AwesomeReviewView.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		D0F3B81C25DE527B0056ED10 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D0645AC425E3B30300B455B9 /* MyOwnTableView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F3B7A725DE4C3E0056ED10 /* LaunchScreen.storyboard in Resources */,
+				D0F3B7E625DE4DC00056ED10 /* CellTableViewCell.xib in Resources */,
+				D0F3B7D725DE4D320056ED10 /* review.json in Resources */,
 				D0F3B7A425DE4C3E0056ED10 /* Assets.xcassets in Resources */,
+				D0F3B7DE25DE4D9F0056ED10 /* ReviewTableViewCell.xib in Resources */,
 				D0F3B7A225DE4C3B0056ED10 /* Main.storyboard in Resources */,
+				D0F3B7EC25DE4DD40056ED10 /* AwesomeReviewView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F3B7E525DE4DC00056ED10 /* CellTableViewCell.swift in Sources */,
 				D0F3B79F25DE4C3B0056ED10 /* ViewController.swift in Sources */,
+				D0F3B7DF25DE4D9F0056ED10 /* ReviewTableViewCell.swift in Sources */,
 				D0F3B79B25DE4C3B0056ED10 /* AppDelegate.swift in Sources */,
+				D0F3B7ED25DE4DD40056ED10 /* AwesomeReviewView.swift in Sources */,
+				D0645AC525E3B30300B455B9 /* MyOwnTableView.swift in Sources */,
+				D0F3B81825DE4EA20056ED10 /* model.swift in Sources */,
 				D0F3B79D25DE4C3B0056ED10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

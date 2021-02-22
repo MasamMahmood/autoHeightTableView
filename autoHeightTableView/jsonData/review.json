@@ -1,0 +1,31 @@
+{
+  "reviewPermission": "true",
+  "isFavorite": "false",
+  "reviewDetails": {
+    "title": "Review Details",
+    "link": "https://www.com",
+    "count": "22",
+    "reviews": [
+      {
+        "reviewId": "874",
+        "image": "324dsf1d6c0cb.jpg",
+        "name": "Mark Steve",
+        "date": "17.02.2021",
+        "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "rating": "5",
+        "likeCount": "13",
+        "isLiked": "false"
+      },
+      {
+        "reviewId": "875",
+        "image": "na212313.jpg",
+        "name": "John Gates",
+        "date": "17.02.2021",
+        "comment": "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "rating": "2",
+        "likeCount": "35",
+        "isLiked": "false"
+      }
+    ]
+  }
+}
